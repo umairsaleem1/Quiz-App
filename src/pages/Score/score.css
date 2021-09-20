@@ -1,0 +1,47 @@
+.main-container-score{
+    height: 100vh;
+}
+
+.score{
+    text-align: center;
+    margin-top: 200px;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.back-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.backhome-btn{
+    background: white;
+    border: 2px solid #ff6961;
+    color: #ff6961;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    outline: none;
+    transition-property: all;
+    transition-duration: 0.3s;
+    cursor: pointer;
+
+}
+.backhome-btn:hover{
+    background: #ff6961;
+    color: white;
+}
+
+
+
+
+@media only screen and (max-width:800px){
+    .score{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:450px){
+    .score{
+        font-size: 1.5rem;
+    }
+}

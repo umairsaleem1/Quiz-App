@@ -1,0 +1,24 @@
+.main-heading{
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 30px;
+}
+
+
+
+
+@media only screen and (max-width:680px){
+    .main-heading{
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .main-heading{
+        font-size: 1.5rem;
+    }
+}
